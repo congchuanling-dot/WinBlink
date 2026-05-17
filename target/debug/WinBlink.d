@@ -1,1 +1,1 @@
-G:\beliveOnly\WinBlink\target\debug\WinBlink.exe: G:\beliveOnly\WinBlink\src\common\error.rs G:\beliveOnly\WinBlink\src\common\mod.rs G:\beliveOnly\WinBlink\src\common\types.rs G:\beliveOnly\WinBlink\src\main.rs
+G:\beliveOnly\WinBlink\target\debug\WinBlink.exe: G:\beliveOnly\WinBlink\src\common\error.rs G:\beliveOnly\WinBlink\src\common\mod.rs G:\beliveOnly\WinBlink\src\common\types.rs G:\beliveOnly\WinBlink\src\hotkey\mod.rs G:\beliveOnly\WinBlink\src\main.rs G:\beliveOnly\WinBlink\src\ui\mod.rs
