@@ -1,5 +1,6 @@
 mod common;
 mod hotkey;
+mod system;
 mod ui;
 
 use anyhow::Result;
@@ -11,6 +12,24 @@ use winit::window::WindowId;
 
 fn main() -> Result<()> {
     println!("WinBlink 启动成功");
+
+    // Load installed apps
+    print!("正在索引应用程序... ");
+    match system::get_installed_apps() {
+        Ok(apps) => {
+            println!("找到 {} 个应用", apps.len());
+            let limit = apps.len().min(10);
+            for app in apps.iter().take(limit) {
+                println!("  - {}", app.name);
+            }
+            if apps.len() > 10 {
+                println!("  ... 还有 {} 个应用", apps.len() - 10);
+            }
+        }
+        Err(e) => {
+            eprintln!("索引应用失败: {e}");
+        }
+    }
 
     let hotkey_mgr = hotkey::HotkeyManager::new()?;
     let event_loop = EventLoop::new()?;
@@ -33,7 +52,17 @@ impl ApplicationHandler for App {
     fn resumed(&mut self, event_loop: &ActiveEventLoop) {
         if self.window.is_none() {
             match ui::AppWindow::new(event_loop) {
-                Ok(w) => self.window = Some(w),
+                Ok(mut w) => {
+                    // Load apps and pass them to the window
+                    match system::get_installed_apps() {
+                        Ok(apps) => {
+                            println!("[UI] 索引到 {} 个应用", apps.len());
+                            w.set_apps(apps);
+                        }
+                        Err(e) => eprintln!("[UI] 索引应用失败: {e}"),
+                    }
+                    self.window = Some(w);
+                }
                 Err(e) => {
                     eprintln!("创建窗口失败: {e}");
                     event_loop.exit();
@@ -42,9 +71,19 @@ impl ApplicationHandler for App {
         }
     }
 
-    fn window_event(&mut self, event_loop: &ActiveEventLoop, _id: WindowId, event: WindowEvent) {
+    fn window_event(&mut self, event_loop: &ActiveEventLoop, id: WindowId, event: WindowEvent) {
+        // Forward to UI for egui handling
+        if let Some(ref mut window) = self.window {
+            window.handle_event(&event);
+        }
+
         match event {
             WindowEvent::CloseRequested => event_loop.exit(),
+            WindowEvent::RedrawRequested => {
+                if let Some(ref mut window) = self.window {
+                    window.render();
+                }
+            }
             WindowEvent::KeyboardInput {
                 event:
                     KeyEvent {
@@ -71,6 +110,13 @@ impl ApplicationHandler for App {
             println!("[热键] 切换窗口");
             if let Some(ref window) = self.window {
                 window.toggle();
+            }
+        }
+
+        // Request redraw when visible
+        if let Some(ref window) = self.window {
+            if window.is_visible() {
+                self.window.as_ref().unwrap().window.request_redraw();
             }
         }
     }
