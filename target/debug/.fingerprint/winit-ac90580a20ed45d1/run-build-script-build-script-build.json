@@ -1,0 +1,1 @@
+{"rustc":8891013984288978370,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[2901339412823178527,"build_script_build",false,14719689767911502224]],"local":[{"RerunIfChanged":{"output":"debug\\build\\winit-ac90580a20ed45d1\\output","paths":["build.rs"]}}],"rustflags":["-C","link-arg=/OPT:NOICF","-C","link-arg=/DEBUG:NONE"],"config":0,"compile_kind":0}

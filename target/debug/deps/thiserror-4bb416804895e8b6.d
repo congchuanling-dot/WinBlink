@@ -1,0 +1,14 @@
+G:\beliveOnly\WinBlink\target\debug\deps\thiserror-4bb416804895e8b6.d: C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\lib.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\aserror.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\display.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\var.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\private.rs G:\beliveOnly\WinBlink\target\debug\build\thiserror-194f531c2846c2f2\out/private.rs
+
+G:\beliveOnly\WinBlink\target\debug\deps\libthiserror-4bb416804895e8b6.rlib: C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\lib.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\aserror.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\display.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\var.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\private.rs G:\beliveOnly\WinBlink\target\debug\build\thiserror-194f531c2846c2f2\out/private.rs
+
+G:\beliveOnly\WinBlink\target\debug\deps\libthiserror-4bb416804895e8b6.rmeta: C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\lib.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\aserror.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\display.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\var.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\private.rs G:\beliveOnly\WinBlink\target\debug\build\thiserror-194f531c2846c2f2\out/private.rs
+
+C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\lib.rs:
+C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\aserror.rs:
+C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\display.rs:
+C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\var.rs:
+C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\thiserror-2.0.18\src\private.rs:
+G:\beliveOnly\WinBlink\target\debug\build\thiserror-194f531c2846c2f2\out/private.rs:
+
+# env-dep:OUT_DIR=G:\\beliveOnly\\WinBlink\\target\\debug\\build\\thiserror-194f531c2846c2f2\\out

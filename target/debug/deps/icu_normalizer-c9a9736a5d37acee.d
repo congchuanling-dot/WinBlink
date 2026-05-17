@@ -1,0 +1,10 @@
+G:\beliveOnly\WinBlink\target\debug\deps\icu_normalizer-c9a9736a5d37acee.d: C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\lib.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\properties.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\provider.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\uts46.rs
+
+G:\beliveOnly\WinBlink\target\debug\deps\libicu_normalizer-c9a9736a5d37acee.rlib: C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\lib.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\properties.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\provider.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\uts46.rs
+
+G:\beliveOnly\WinBlink\target\debug\deps\libicu_normalizer-c9a9736a5d37acee.rmeta: C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\lib.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\properties.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\provider.rs C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\uts46.rs
+
+C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\lib.rs:
+C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\properties.rs:
+C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\provider.rs:
+C:\Users\从传领\.cargo\registry\src\mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda\icu_normalizer-2.2.0\src\uts46.rs:
